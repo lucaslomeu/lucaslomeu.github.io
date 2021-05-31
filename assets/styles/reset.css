@@ -1,0 +1,21 @@
+:root {
+  --text-color: #1b2021;
+  --primary-color: #fd5e53;
+  --hover-color: #ff9890;
+  --primary-bg: #f9fcfb;
+  --nav-color: #f9fcfb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inconsolata', monospace;
+  overflow: hidden;
+}
+
+body,
+html {
+  margin: 0;
+  background-color: var(--primary-bg);
+}

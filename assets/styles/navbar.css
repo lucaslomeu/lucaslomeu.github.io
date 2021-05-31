@@ -1,0 +1,47 @@
+nav {
+  background-color: var(--nav-color);
+  position: sticky;
+  top: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+nav .navbar img {
+  width: 150px;
+}
+
+nav .navbar ul {
+  list-style: none;
+}
+
+nav .navbar .navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+nav .navbar .navbar-links li {
+  margin: 0 10px;
+  color: var(--text-color);
+}
+
+nav .navbar .navbar-links li i {
+  cursor: pointer;
+}
+
+nav .navbar a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+nav .navbar a:hover,
+nav .navbar .navbar-links li:hover {
+  color: var(--hover-color);
+}

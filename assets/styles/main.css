@@ -1,0 +1,76 @@
+@import url('navbar.css');
+@import url('reset.css');
+@import url('about.css');
+@import url('contact.css');
+
+#home-section {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-bg);
+  height: 100%;
+}
+
+.home-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-about {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.home-about h1 {
+  font-size: 4rem;
+  color: var(--text-color);
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.home-about h3 {
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.home-about p {
+  font-size: 1rem;
+  width: 300px;
+  height: 100px;
+  margin-top: 5px;
+  color: var(--text-color);
+}
+
+.home-info img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.home-info img:hover {
+  border-color: var(--hover-color);
+}
+
+.home-info .home-social {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+}
+
+.home-info .home-social input {
+  font-size: 0.9rem;
+  height: 38px;
+  width: 100px;
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--text-color);
+}
+
+.home-info .home-social input:hover {
+  cursor: pointer;
+  color: var(--hover-color);
+}

@@ -1,0 +1,113 @@
+#about-section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--secondary-bg);
+}
+
+#about-section .about-infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  width: 70%;
+}
+
+#about-section .frontend,
+#about-section .design,
+#about-section .systemOS {
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  padding: 10px;
+  margin-bottom: 15px;
+  height: 80px;
+}
+
+#about-section .about-infos .frontend p,
+#about-section .about-infos .design p,
+#about-section .about-infos .systemOS p {
+  text-align: left;
+  font-size: 1rem;
+}
+
+#about-section .frontend-title,
+#about-section .design-title,
+#about-section .systemOS-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+#about-section .frontend-title i,
+#about-section .design-title i,
+#about-section .systemOS-title i {
+  margin-right: 7px;
+}
+
+#about-section .skill-text .frontend-title:hover,
+#about-section .skill-text .design-title:hover,
+#about-section .skill-text .systemOS-title:hover {
+  color: var(--secondary-bg);
+}
+
+#about-section .skill-text {
+  color: var(--text-color);
+  width: 500px;
+  cursor: pointer;
+}
+
+#about-section .skill-text p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+#about-section .about-text {
+  color: var(--text-color);
+  cursor: pointer;
+  width: 450px;
+}
+
+#about-section .about-text h1 {
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+#about-section .about-text h1:hover {
+  color: var(--hover-color);
+}
+
+#about-section .about-text p {
+  font-size: 1rem;
+  text-align: justify;
+}
+#about-section .about-text input {
+  width: 100px;
+  height: 30px;
+  float: right;
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--text-color);
+  margin-top: 20px;
+}
+
+#about-section .about-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#about-section .about-links i {
+  margin: 20px;
+  font-size: 2.6rem;
+  color: var(--text-color);
+  opacity: 0.1;
+}
+
+#about-section .about-links i:hover {
+  opacity: 1;
+}
