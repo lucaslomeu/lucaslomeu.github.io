@@ -1,17 +1,16 @@
 :root {
-  --text-color: #1b2021;
+  --text-color: #637373;
   --primary-color: #fd5e53;
-  --hover-color: #ff9890;
-  --primary-bg: #f9fcfb;
-  --nav-color: #f9fcfb;
+  --hover-color: #f54748;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inconsolata', monospace;
-  overflow: hidden;
+  font-family: 'Ubuntu', sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 body,

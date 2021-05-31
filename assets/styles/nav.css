@@ -1,0 +1,26 @@
+nav {
+  margin-top: 2rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul a {
+  margin: 0rem 0.1rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav ul a li {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+nav ul a li:hover {
+  color: var(--hover-color);
+}

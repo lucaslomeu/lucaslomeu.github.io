@@ -1,0 +1,317 @@
+#container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.about-container .header h1 {
+  font-weight: normal;
+  color: var(--primary-color);
+  text-align: left;
+  font-weight: 600;
+}
+
+.about-text p.sobre {
+  width: 600px;
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0.4rem;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+#container .skill-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.skill-text .frontend,
+.skill-text .design,
+.skill-text .systemOS {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  flex: 1;
+  /* border-right: 1px solid var(--primary-color);
+  border-radius: 5px; */
+  margin: 0 5px;
+  padding: 5px;
+  opacity: 0.7;
+  color: var(--text-color);
+}
+.skill-text .design {
+  border-left: 1px solid var(--primary-color);
+  border-right: 1px solid var(--primary-color);
+  border-radius: 0;
+}
+
+.skill-text .frontend:hover,
+.skill-text .design:hover,
+.skill-text .systemOS:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.skill-text .frontend p,
+.skill-text .design p,
+.skill-text .systemOS p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.skill-text i,
+.skill-text i,
+.skill-text i {
+  margin-right: 7px;
+}
+
+.skill-text .frontend-title,
+.skill-text .design-title,
+.skill-text .systemOS-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  color: var(--primary-color);
+}
+
+.about-input input {
+  width: 100px;
+  height: 30px;
+  float: right;
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--text-color);
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.about-input input:hover {
+  color: var(--primary-color);
+}
+
+.about-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.about-links i {
+  margin: 20px;
+  font-size: 2.6rem;
+  opacity: 0.1;
+}
+
+.about-links i:hover {
+  opacity: 1;
+  color: var(--primary-color);
+}
+
+footer p {
+  color: #1a1a2e;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+  .about-container {
+    margin-top: 1rem;
+  }
+  .about-container .header h1 {
+    font-size: 1.5rem;
+    text-align: left;
+    width: 600px;
+  }
+
+  .about-text p.sobre {
+    width: 600px;
+    font-size: 1.2rem;
+    margin: 15px 0;
+  }
+  .skill-text .frontend-title,
+  .skill-text .design-title,
+  .skill-text .systemOS-title {
+    justify-content: center;
+    height: 30px;
+  }
+
+  .skill-text .frontend-title h4,
+  .skill-text .design-title h4,
+  .skill-text .systemOS-title h4 {
+    font-size: 0.9rem;
+  }
+
+  .skill-text .frontend,
+  .skill-text .design,
+  .skill-text .systemOS {
+    height: 90px;
+    width: 200px;
+    margin: 0 5px;
+    padding: 5px;
+  }
+
+  .skill-text .frontend p,
+  .skill-text .design p,
+  .skill-text .systemOS p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .about-container {
+    margin-top: 1rem;
+  }
+
+  .about-container .header h1 {
+    font-size: 1rem;
+    text-align: left;
+    width: 400px;
+  }
+
+  .about-text p.sobre {
+    width: 400px;
+    font-size: 1rem;
+  }
+
+  #container .skill-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill-text .frontend-title,
+  .skill-text .design-title,
+  .skill-text .systemOS-title {
+    justify-content: start;
+    height: 20px;
+  }
+
+  .skill-text .frontend-title h4,
+  .skill-text .design-title h4,
+  .skill-text .systemOS-title h4 {
+    font-size: 0.8rem;
+  }
+
+  .skill-text .frontend,
+  .skill-text .design,
+  .skill-text .systemOS {
+    width: 400px;
+    border: none;
+    margin: 5px 0;
+    padding: 5px;
+  }
+
+  .skill-text .frontend p,
+  .skill-text .design p,
+  .skill-text .systemOS p {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 0.8rem;
+  }
+
+  .about-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .about-links i {
+    margin: 10px;
+    font-size: 2rem;
+    opacity: 0.1;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+  .about-container {
+    margin-top: 1rem;
+  }
+  .about-container .header h1 {
+    font-size: 1rem;
+    text-align: left;
+    width: 250px;
+  }
+
+  .about-text p.sobre {
+    width: 250px;
+    font-size: 1rem;
+  }
+
+  #container .skill-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .skill-text .frontend-title,
+  .skill-text .design-title,
+  .skill-text .systemOS-title {
+    justify-content: start;
+    height: 20px;
+  }
+
+  .skill-text .frontend-title h4,
+  .skill-text .design-title h4,
+  .skill-text .systemOS-title h4 {
+    font-size: 0.8rem;
+  }
+
+  .skill-text .frontend,
+  .skill-text .design,
+  .skill-text .systemOS {
+    width: 250px;
+    border: none;
+    margin: 5px 0;
+    padding: 5px;
+  }
+
+  .skill-text .frontend p,
+  .skill-text .design p,
+  .skill-text .systemOS p {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 0.8rem;
+  }
+
+  .about-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+    max-width: 250px;
+  }
+
+  .about-links i {
+    margin: 10px;
+    font-size: 2rem;
+    opacity: 0.1;
+  }
+
+  footer p {
+    text-align: center;
+    font-size: 0.6rem;
+    margin-bottom: 1.5rem;
+  }
+}
